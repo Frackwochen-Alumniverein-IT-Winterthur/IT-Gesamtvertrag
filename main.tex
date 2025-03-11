@@ -1,0 +1,95 @@
+\documentclass[parskip=half]{scrreprt}
+
+\usepackage[margin=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage[juratotoc]{scrjura}
+\usepackage{color}
+
+\makeatletter 
+\renewcommand*{\parformat}{% 
+  \global\hangindent 2em 
+  \makebox[2em][l]{(\thepar)\hfill}%
+}  
+\makeatother
+\renewcommand*{\parformatseparation}{}
+
+\begin{document}
+\addchap{Bartvertrag}
+
+
+\section*{Präambel}
+Vor 100 Jahren haben die Studenten des Technikums eine Tradition gegründet, bei der für 100 Tagen die angehenden Absolventen die Gesichtsbeharung nicht kürzen.
+Der staatliche Bart dient als Eintritszeichen in die Gemeinschaft der Techniker und das volle Berufsleben und alle dessen Pflichten und Rechte.
+Nach 100 Jahren ist es an der Zeit die 100 Tägige Tradition zu eneuern und zeitgemäss anzupassen.
+
+\begin{contract}
+  \Clause{title={Zweck, Gültigkeit und Struktur}}
+
+  \SubClause{title={Zweck}}
+  Der Vertrag regelt die Pflichten und Rechte der Unterzeichner/in, ab hier ``Vor-Würdige/in'', gegenüber ihre Komilitonen, der Würdigengemeinschaft und ihre IT-Vorfahren.
+
+  \SubClause{title={Gültigkeit}}
+  Der Vetrag tritt in Kraft, sobald ein/e Vor-Würdiger/in an der letzten Rasur am 26. März 2025 unterschrieben hat und läuft, wenn nicht anders angegeben bis zum BartAb an der Nacht der Technik am 04. Juli 2025, 100 Tage später.
+
+  Der Vetrag steht rechtlich über die Genfer Konventionen und insbesondere auch über das Allgemeine Zoll- und Handelsabkommen (GATT) der Internationalen Handelsorganisation (WTO) aber unter der schweizerischen Verfassung.
+
+  \SubClause{title={Struktur}}
+  Der Vetrag ist in drei Teilen gegliedert, wobei der erste Teil die ``Historikerverantwortung'' und der zweite Teil die ``Bartverantwortung'' regeln.
+  Die Artikel *Insert Article Numbers hier* widmen sich der Historikerverantwortung und die Artikel *Insert Article Numbers hier* der Bartverantwortung.
+  Im dritten Teil werden allfällige Klasseninterne ``Verantwortugen'' geregelt.
+
+  \Clause{title={Rollen}}
+  In diesem Artikel werden die Rollen enumeriert, die in diesem Vertrag vorkommen. Die genauen Aufgaben und Pflichten werden in den weiteren Artikeln definiert.
+
+  \SubClause{title={Bartvögte}}
+  Die Bartvögte, welche durch die Gesetzschreiber ernannt wurden, sind anerkannte Mitglieder, welche das stetige Einhalten dieses Vertrages überwachen.
+  Als Ausgewählte gelten:\\[8ex]% adds space between the two sets of signatures
+  \parnumberfalse
+  \noindent\begin{tabular}{ll}
+    \makebox[6.5cm]{\hrulefill} & \makebox[6.5cm]{\hrulefill} \\
+    Bartvögt 1                  & Bartvögt 2                  \\[8ex]
+    \makebox[6.5cm]{\hrulefill} & \makebox[6.5cm]{\hrulefill} \\
+    Bartvögt 3                  & Bartvögt 4                  \\[8ex]
+    \makebox[6.5cm]{\hrulefill} & \makebox[6.5cm]{\hrulefill} \\
+    Bartvögt 5                  & Bartvögt 6                  \\
+  \end{tabular}
+  \parnumbertrue
+
+  \SubClause{title={Oberst-Bartvögt}}
+  Der Oberst-Bartvögt ist der/die oberste Verantwortliche für die Einhaltung des Vertrages und wird unter den Bartvögten gewählt.
+  Der/die Inhaber/in des Amts ist die höchste Instanz und ist verantwortlich für die Koordination unter den Bartvögten.
+  In ihre Rolle ist die Person befugt Aufgaben and den Bartvögten zu definieren und zu delegieren.\\[8ex]
+  \parnumberfalse
+  \noindent\begin{tabular}{l}
+    \makebox[6.5cm]{\hrulefill} \\
+    Oberst-Bartvögt             \\[8ex]
+  \end{tabular}
+  \parnumbertrue
+
+  \SubClause{title={IT-Vorfahre}}
+  Der/Die IT-Vorfahre ist der erwählte IT-Alumnivereinmitglied, der als Kontakperson zur Oberst-Bartvögt dient und die Koordination
+  zwischen den IT-Alumniverein und Bartvögten übernimmt.
+  \parnumberfalse
+  \noindent\begin{tabular}{l}
+    \makebox[6.5cm]{\hrulefill} \\
+    IT-Vorfahre                 \\[8ex]
+  \end{tabular}
+  \parnumbertrue
+
+  \Clause{title={Historikerverantwortung}}
+
+
+\end{contract}
+
+\vspace{50pt}
+\noindent\rule{7cm}{.4pt}\hfill\rule{7cm}{.4pt}\par
+\noindent Datum, Ort \hfill Unterschrift Verkäufer
+
+\vspace{50pt}
+\noindent\rule{7cm}{.4pt}\hfill\rule{7cm}{.4pt}\par
+\noindent Datum, Ort \hfill Unterschrift Käufer
+
+\end{document}
