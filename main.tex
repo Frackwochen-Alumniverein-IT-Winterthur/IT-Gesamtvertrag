@@ -1,11 +1,11 @@
-\documentclass[parskip=half]{scrreprt}
+\documentclass[fontsize=12pt,parskip=half]{scrartcl}
 
 \usepackage[margin=2cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
 \usepackage{lmodern}
-\usepackage[juratotoc]{scrjura}
+\usepackage[juratotoc]{contract}
 \usepackage{color}
 
 \makeatletter 
@@ -17,7 +17,9 @@
 \renewcommand*{\parformatseparation}{}
 
 \begin{document}
-\addchap{Bartvertrag}
+
+\title{Bartvertrag - 100 Jahre Barttradition \(DRAFT\)}
+\maketitle
 
 
 \section*{Präambel}
@@ -25,65 +27,169 @@ Vor 100 Jahren haben die Studenten des Technikums eine Tradition gegründet, bei
 Der staatliche Bart dient als Eintritszeichen in die Gemeinschaft der Techniker und das volle Berufsleben und alle dessen Pflichten und Rechte.
 Nach 100 Jahren ist es an der Zeit die 100 Tägige Tradition zu eneuern und zeitgemäss anzupassen.
 
-\begin{contract}
-  \Clause{title={Zweck, Gültigkeit und Struktur}}
+\appendix % Trick to number Sections with Upper Case Letters
 
-  \SubClause{title={Zweck}}
+\section{Übersicht}
+\begin{contract}
+
+  \Clause[title={Zweck}]
   Der Vertrag regelt die Pflichten und Rechte der Unterzeichner/in, ab hier ``Vor-Würdige/in'', gegenüber ihre Komilitonen, der Würdigengemeinschaft und ihre IT-Vorfahren.
 
-  \SubClause{title={Gültigkeit}}
-  Der Vetrag tritt in Kraft, sobald ein/e Vor-Würdiger/in an der letzten Rasur am 26. März 2025 unterschrieben hat und läuft, wenn nicht anders angegeben bis zum BartAb an der Nacht der Technik am 04. Juli 2025, 100 Tage später.
+  \Clause[title={Gültigkeit}]
+  Der Vetrag tritt in Kraft, sobald ein/e Vor-Würdiger/in an der letzten Rasur am 26. März 2025 unterschrieben hat und läuft, wenn nicht anders angegeben bis zum BartAb
+  an der Nacht der Technik am 04. Juli 2025, 100 Tage später.
 
-  Der Vetrag steht rechtlich über die Genfer Konventionen und insbesondere auch über das Allgemeine Zoll- und Handelsabkommen (GATT) der Internationalen Handelsorganisation (WTO) aber unter der schweizerischen Verfassung.
+  Der Vetrag steht rechtlich über die Genfer Konventionen und insbesondere auch über das Allgemeine Zoll- und Handelsabkommen (GATT) der Internationalen Handelsorganisation (WTO),
+  aber unter der schweizerischen Verfassung.
 
-  \SubClause{title={Struktur}}
+  \Clause[title={Struktur}]
   Der Vetrag ist in drei Teilen gegliedert, wobei der erste Teil die ``Historikerverantwortung'' und der zweite Teil die ``Bartverantwortung'' regeln.
   Die Artikel *Insert Article Numbers hier* widmen sich der Historikerverantwortung und die Artikel *Insert Article Numbers hier* der Bartverantwortung.
   Im dritten Teil werden allfällige Klasseninterne ``Verantwortugen'' geregelt.
 
-  \Clause{title={Rollen}}
+  \Clause[title={Rollen}]
   In diesem Artikel werden die Rollen enumeriert, die in diesem Vertrag vorkommen. Die genauen Aufgaben und Pflichten werden in den weiteren Artikeln definiert.
 
-  \SubClause{title={Bartvögte}}
-  Die Bartvögte, welche durch die Gesetzschreiber ernannt wurden, sind anerkannte Mitglieder, welche das stetige Einhalten dieses Vertrages überwachen.
+  \SubClause[title={Bartvögte}]
+  Die Bartvögte, welche pro Klasse zwei ernannt werden, sind anerkannte Vor-Würdige, welche das stetige Einhalten dieses Vertrages überwachen.
   Als Ausgewählte gelten:\\[8ex]% adds space between the two sets of signatures
   \parnumberfalse
   \noindent\begin{tabular}{ll}
     \makebox[6.5cm]{\hrulefill} & \makebox[6.5cm]{\hrulefill} \\
-    Bartvögt 1                  & Bartvögt 2                  \\[8ex]
+    Bartvögt 1 - Klasse         & Bartvögt 2 - Klasse         \\[8ex]
     \makebox[6.5cm]{\hrulefill} & \makebox[6.5cm]{\hrulefill} \\
-    Bartvögt 3                  & Bartvögt 4                  \\[8ex]
+    Bartvögt 3 - Klasse         & Bartvögt 4 - Klasse         \\[8ex]
     \makebox[6.5cm]{\hrulefill} & \makebox[6.5cm]{\hrulefill} \\
-    Bartvögt 5                  & Bartvögt 6                  \\
+    Bartvögt 5 - Klasse         & Bartvögt 6 - Klasse         \\[8ex]
+    \makebox[6.5cm]{\hrulefill} & \makebox[6.5cm]{\hrulefill} \\
+    Bartvögt 7 - Klasse         & Bartvögt 8 - Klasse         \\
   \end{tabular}
   \parnumbertrue
 
-  \SubClause{title={Oberst-Bartvögt}}
+  \SubClause[title={Oberst-Bartvögt}]
   Der Oberst-Bartvögt ist der/die oberste Verantwortliche für die Einhaltung des Vertrages und wird unter den Bartvögten gewählt.
   Der/die Inhaber/in des Amts ist die höchste Instanz und ist verantwortlich für die Koordination unter den Bartvögten.
-  In ihre Rolle ist die Person befugt Aufgaben and den Bartvögten zu definieren und zu delegieren.\\[8ex]
+  In ihre Rolle ist die Person befugt Aufgaben an den Bartvögten zu definieren und zu delegieren.\\[8ex]
   \parnumberfalse
   \noindent\begin{tabular}{l}
     \makebox[6.5cm]{\hrulefill} \\
-    Oberst-Bartvögt             \\[8ex]
+    Oberst-Bartvögt: Name       \\
   \end{tabular}
   \parnumbertrue
 
-  \SubClause{title={IT-Vorfahre}}
-  Der/Die IT-Vorfahre ist der erwählte IT-Alumnivereinmitglied, der als Kontakperson zur Oberst-Bartvögt dient und die Koordination
-  zwischen den IT-Alumniverein und Bartvögten übernimmt.
+  \SubClause[title={IT-Vorfahre}]
+  Der/Die IT-Vorfahre/-in ist der erwählte IT-Alumnivereinmitglied, der als Kontakperson zur Oberst-Bartvögt dient und die Koordination
+  zwischen den IT-Alumniverein und Bartvögten übernimmt.\\[8ex]
+
   \parnumberfalse
   \noindent\begin{tabular}{l}
     \makebox[6.5cm]{\hrulefill} \\
-    IT-Vorfahre                 \\[8ex]
+    IT-Vorfahre: Name           \\
   \end{tabular}
   \parnumbertrue
+\end{contract}
 
-  \Clause{title={Historikerverantwortung}}
+\pagebreak
+\section{Historikerverantwortung}
+\begin{contract}
+
+  \Clause[title={``C-Handbuch unserer Geschichte''}]
+  Zu Ehren von den Titanen der Informatik Brian W. Kernighan \& Dennis M. Ritch, die selber prächtige Bärte trugen,
+  wird zum 100-jährigen Jubiläums der Barttradition eine Kopie des ``The C Programming Language'' Handbuches im
+  eineitigen Format erstellt. Diese Kopie wird als ``C-Handbuch unserer Geschichte'' betauft, denn sie wird einen
+  Abdruck von jeden kommenden Würdigen enthalten.
+
+  \Clause[title={Verteilung}]
+  Die Seiten des ``C-Handbuch unserer Geschichte'' werden an der Woche der Letzen Rasur unter den Vor-Würdigen gleichmässig verteilt.
+  Bis zum Start der folgende müssen all Vor-Würdigen ihre Seiten in ihrem Besitz haben. Neben den Seiten des ``C-Handbuch unserer Geschichte''
+  erhalten die Vor-Würdigen auch eine Badgehülle im A6 Format mit Kette. Diese Hülle, von hier die Erkennungshülle, enthällt eine Kopie der
+  Titelseite des ``The C Programming Language'' Handbuches. Verantwortlich für die Verteilung sind die Bartvögte.
+
+  \Clause[title={Erkennungs-, Schutz-, Vorweis-, Wissensaufgabe}] \label{H.aufgaben}
+  Die Vor-Würdigen verpflichten sich vier Aufgaben zu erfüllen.
+
+  \SubClause[title={Erkennungsaufgabe}]\label{H.erkennungsaufgabe}
+  Die Vor-Würdigen verpflichten sich, die Erkennungshülle (oder äquivalentes \refS{aequivalentes}) bei jedem Aufenthalt am Technikum zu tragen während der
+  Barttraditionsdauer sichtbar zu tragen. Dies dient als Erkennungszeichen für die Vor-Würdigen.
+
+  Alle Vor-Würdigen sind ermächtigt und ermutigt, das Erkennungszeichen zu kontrollieren und bei Missachtung der Erkennungsaufgabe ihren zugeteilten Bartvögt davon zu informieren.
+
+  Es ist in der Ermächtigung der Bartvögte ein äquivalentes Erkennungszeichen bilateral mit Interessenten zu vereinbaren.\label{aequivalentes}
+
+  Wird ein/e Vor-Würdige/r von einer Person von ausserhalb der Würdigengemeinschaft, von hier als Zivilist/-in, auf ihr Erkennungszeichen angesprochen, so muss Sie eine Kombination
+  der \refS{H.vorweisaufgabe} und \refS{H.wissensaufgabe} erfüllen und die Barttradition und Historikerverantwortung \refS{H.verantwortung} erklären.
+
+  \SubClause[title={Schutzaufgabe}]\label{H.schutzaufgabe}
+  Die Vor-Würdigen verpflichten sich, die Seiten des ``C-Handbuch unserer Geschichte'' vor jedem Schaden zu schützen.
+
+  \SubClause[title={Vorweisaufgabe}]\label{H.vorweisaufgabe}
+  Die Vor-Würdigen verpflichten sich, die Seiten des ``C-Handbuch unserer Geschichte'' auf Anfrage vorzuweisen. Dies kann durch Vorweisen der originalen
+  Seiten oder einer digitalen Kopie erfolgen.
+
+  \SubClause[title={Wissensaufgabe}]\label{H.wissensaufgabe}
+  Die Vor-Würdigen verpflichten sich, den Inhalt ihrer Seiten zu studieren und zu verstehen. Sie müssen in der Lage sein, die Informationen
+  auf Anfrage zusammenzufassen und zu erklären. Ist die Anfragende Person zufrieden mit der Antwort, so wird Sie vom Vor-Würdigen gebeten
+  ihre Unterschrift auf die Rückseite der Titelseite der Erkennungshülle (und NICHT eine Seit des ``C-Handbuch unserer Geschichte'') und einem
+  Timestamp der Interaktion zu hinterlassen.
+
+  Die Wissensaufgabe gilt nur als erfüllt, wenn mindestens eine Unterschrift gesammelt wurde. Die Anfragende Person muss nicht Teil der Würdigengemeinschaft sein.
+
+  Die Bartvögte sind ermutigt, die Vor-Würdigen unter sich zu verteilen und zu prüfen.
+
+  Der Vor-Würdiger mit den meisten einzigartigen Unterschriften wird mit einem Getränkegutschein von einem noch zu definierendem Wert, oder äquivalentes
+  belohnt. Haben mehrere Vor-Würdige die gleiche Anzahl an Unterschriften, so wird der Gutschein unter diesen geteilt.
+
+  \SubClause[title={Dauer}]
+  Die Schutzaufgabe \refS{H.schutzaufgabe} gilt von Annahme der Seiten des ``C-Handbuch unserer Geschichte'' bis zur Einsammlung \refS{H.einsammlung}.
+
+  Die Erkennungs- \refS{H.erkennungsaufgabe}, Vorweis- \refS{H.vorweisaufgabe} und Wissensaufgabe \refS{H.wissensaufgabe} gelten von Annahme der Seiten
+  des ``C-Handbuch unserer Geschichte'' bis zum BartAb an der Nacht der Technik am 04. Juli 2025.
+
+  \Clause[title={Historikerverantwortung}]\label{H.verantwortung}
+  Die in \refS{H.aufgaben} aufgezählten Aufgaben sind die Pflichten aller Vor-Würdigen und sind nicht abtragbar und definieren die Historikerverantwortung.
+  Bei erfolgreicher Erfüllung der Historikerverantwortung bis zum Tag der Diplomfeier wird der Vor-Würdiger offiziel als Würdiger anerkannt und darf sich
+  als Mitglied der Würdigengemeinschaft bezeichnen. Die Annerkennung wird durch eine Unterschrift des Würdigen auf eine seiner Seiten des ``C-Handbuch unserer Geschichte''
+  an der Diplomfeier vor der Einsammlung \refS{H.einsammlung} bestätigt.
+
+  \Clause[title={Sanktionen}]
+
+
+  \Clause[title={Einsammlung}]\label{H.einsammlung}
+  Die Seiten des ``C-Handbuch unserer Geschichte'' werden an der Diplomfeier von einem designierten Bartvögt eingesammelt und an den IT-Vorfahre übergeben.
+
+  Da für die Campuse der Zürcher Hochschule für Angewandte Wissenschaften (ZHAW) getrennte Diplomfeier stattfinden, wird ein Würdiger erwählt, der die gesammelten
+  Seiten einer Diplomfeier an den Bartvögten der nächsten Diplomfeier übergibt. Dieser Würdiger erhält den ehrenvollen Titel ``Würdiger der Vereinigung der Diplomfeiern'' und darf
+  diesen Titel mit Jahr unter seine Unterschrift im ``C-Handbuch unserer Geschichte'' notieren.
+
+  Nach der Vereinigung des ``C-Handbuch unserer Geschichte'' wird ein Würdiger ernannt der es an den IT-Alumniverein übergeben, welcher die Archivistenaufgabe \refS{H.archivistenaufgabe} übernimmt.
+
+  Die Erkennungshüllen werden spätestens an der Diplomfeier abgegeben und an die Bartvögte übergeben und and den IT-Vorfahre weitergeleitet.
+
+  Die unterschriebene Titelseite der Erkennungshülle bleibt im Besitz des Würdigen und dient als Beweis der Erfüllung der Historikerverantwortung.
+
+  \Clause[title={Archivistenaufgabe}]\label{H.archivistenaufgabe}
+  Der IT-Alumniverein verpflichtet sich, das Original des ``C-Handbuch unserer Geschichte'' sowie auch digitalisierte Kopien zu archivieren und während der Barttraditionfreiezeit
+  zu pflegen. Der IT-Vorfahre ist verantwortlich für die Koordination und die Übergabe an den Bartvögten der nächsten Generation.
 
 
 \end{contract}
 
+\pagebreak
+\section{Bartverantwortung}
+\begin{contract}
+
+
+\end{contract}
+
+\pagebreak
+\section{Klasseninterne Verantwortungen}
+\begin{contract}
+
+
+\end{contract}
+
+
+\pagebreak
 \vspace{50pt}
 \noindent\rule{7cm}{.4pt}\hfill\rule{7cm}{.4pt}\par
 \noindent Datum, Ort \hfill Unterschrift Verkäufer
