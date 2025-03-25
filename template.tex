@@ -1,6 +1,8 @@
 \documentclass[fontsize=12pt,parskip=half]{scrartcl}
 
-\usepackage[margin=2cm]{geometry}
+\usepackage{layout}
+
+\usepackage[margin=2cm,footskip=45pt]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[nswissgerman]{babel}
@@ -23,6 +25,11 @@
 \renewcommand{\thesection}{\Roman{section}} 
 
 \begin{document}
+
+\parnumberfalse
+\section{My Layout}
+\parnumbertrue
+\layout*
 
 \title{Bartvertrag - \textcolor{blue}{<JAHR>} \(TEMPLATE\)}
 \maketitle
