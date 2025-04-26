@@ -17,7 +17,7 @@ Die folgenden Punkte gehen davon aus, dass man das Template gelesen hat und sich
 2. `template.tex` in neuen `Gesamtvertrag` Directory kopieren, umbenennen und verarbeiten.
     - Wenn nötig werden Verträge anderer Klassen in ihren eigenen Directories unter `Bartvertrag 20$$` gesammelt. 
 
-### Durchführung
+### Vorbereitung
 Nach Einigung auf dem Vertrag und Sammlung der Unterschrifften sollte die Verantwortliche Person mit dem "Frackwochen- und Alumniverein
 Informatik Winterthur” koordinieren um Archivbox zu erhalten. 
 
