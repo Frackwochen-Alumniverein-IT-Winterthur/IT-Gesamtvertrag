@@ -6,7 +6,7 @@ Ein Template für ein fairer und traditionserhaltender Bartvertrag für den gesa
 
 Die folgenden Punkte gehen davon aus, dass man das Template gelesen hat und sich mit dem Konzept des "C-Buch" usw. vertraut gemacht hat. 
 ### Schreibphase
-1. Directory für den Jahrgang erstellen mit der Struktur
+1. Directory für den Jahrgang erstellen mit der Struktur.  
 ```
 ├── Bartvertrag 2025
 ├── Bartvertrag 20$$
@@ -15,7 +15,7 @@ Die folgenden Punkte gehen davon aus, dass man das Template gelesen hat und sich
 │   └── $Klasse Bezeichnung$
 ```
 2. `template.tex` in neuen `Gesamtvertrag` Directory kopieren, umbenennen und verarbeiten.
-    - Wenn nötig werden Verträge anderer Klassen in ihren eigenen Directories unter `Bartvertrag 20$$` gesammelt. 
+    - Wenn nötig bzw. für Archivierungszwecken werden Verträge anderer Klassen in ihren eigenen Directories unter `Bartvertrag 20$$` gesammelt. 
 
 ### Vorbereitung
 Nach Einigung auf dem Vertrag und Sammlung der Unterschrifften sollte die Verantwortliche Person mit dem "Frackwochen- und Alumniverein
@@ -28,4 +28,7 @@ Wenn neue mini-Covers gedruckt werden müssen, dann schlage ich vor das [Copy Pr
 
 Die "Erkennungshüllen" sollten personalisiert werden mit:
 - Die Seiten des Trägers (2 im oberen Bild)
-- Die optionalle Verantwortung falls gewählt (1 im oberen Bild)
+- Die optionale Verantwortung falls gewählt (1 im oberen Bild)
+
+Beispiel für gesammelte Unterschriften und Timestamps laut `§ 8d`:
+![Unterschriften gesammelt](imgs/unterschriften.jpg)
